@@ -20,75 +20,73 @@ def holding_10():
     plt.xlabel("Time [s]",fontsize=13)
     plt.ylabel("Register value",fontsize=13)
     plt.title("Holding Registers for 192.168.95.10")
-    fig0.savefig("Holding-10.png")
+    fig0.savefig("Holding-11.png")
     plt.show()
 
 def holding_11():
     data = pd.read_csv('/home/kali/192.168.95.11-holding.csv',header=None)
          
-    ###### PLOT 192.168.95.11
+    ###### PLOT 192.168.95.10
         
     fig0 = plt.figure(0)
     plt.plot(data[1])
     plt.xlabel("Time [s]",fontsize=13)
     plt.ylabel("Register value",fontsize=13)
     plt.title("Holding Registers for 192.168.95.11")
-    fig0.savefig("Holding-10.png")
+    fig0.savefig("Holding-11.png")
     plt.show()
     
 def holding_12():
     data = pd.read_csv('/home/kali/192.168.95.12-holding.csv',header=None)
          
-    ###### PLOT 192.168.95.12
+    ###### PLOT 192.168.95.10
         
     fig0 = plt.figure(0)
     plt.plot(data[1])
     plt.xlabel("Time [s]",fontsize=13)
     plt.ylabel("Register value",fontsize=13)
     plt.title("Holding Registers for 192.168.95.12")
-    fig0.savefig("Holding-10.png")
+    fig0.savefig("Holding-12.png")
     plt.show()
     
 def holding_13():
     data = pd.read_csv('/home/kali/192.168.95.13-holding.csv',header=None)
          
-    ###### PLOT 192.168.95.13
+    ###### PLOT 192.168.95.10
         
     fig0 = plt.figure(0)
     plt.plot(data[1])
     plt.xlabel("Time [s]",fontsize=13)
     plt.ylabel("Register value",fontsize=13)
     plt.title("Holding Registers for 192.168.95.13")
-    fig0.savefig("Holding-10.png")
+    fig0.savefig("Holding-13.png")
     plt.show()
     
 def holding_14():
     data = pd.read_csv('/home/kali/192.168.95.14-holding.csv',header=None)
          
-    ###### PLOT 192.168.95.14
+    ###### PLOT 192.168.95.10
         
     fig0 = plt.figure(0)
     plt.plot(data[1])
     plt.xlabel("Time [s]",fontsize=13)
     plt.ylabel("Register value",fontsize=13)
     plt.title("Holding Registers for 192.168.95.14")
-    fig0.savefig("Holding-10.png")
+    fig0.savefig("Holding-14.png")
     plt.show()
     
 def holding_15():
     data = pd.read_csv('/home/kali/192.168.95.15-holding.csv',header=None)
          
-    ###### PLOT 192.168.95.15
+    ###### PLOT 192.168.95.10
         
     fig0 = plt.figure(0)
     plt.plot(data[1])
     plt.xlabel("Time [s]",fontsize=13)
     plt.ylabel("Register value",fontsize=13)
     plt.title("Holding Registers for 192.168.95.15")
-    fig0.savefig("Holding-10.png")
+    fig0.savefig("Holding-15.png")
     plt.show()
-    
-################## CALL EACH FUNCTION #####################    
     
 holding_10()
 holding_11()
